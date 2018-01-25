@@ -37,6 +37,10 @@ display: block;
 /** MISSION **/
 .mission {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-position: center;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
   width: 1200px;
   height:700px;
   position: relative;
@@ -45,9 +49,12 @@ display: block;
 .headers{
   background-color:black;
   position: absolute;
-  top: 200px;
+  top: 300px;
   text-align:center;
   width: 100%;
+
+  /** TEA OF THE MONTH **/
+
 
 
 
