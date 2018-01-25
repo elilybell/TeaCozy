@@ -1,61 +1,118 @@
-body{
-font-family:Helvetica;
-font-size:22px;
-color:seashell;
-background-color:black;
-opacity:0.9;
 
+/** TEA COZY STYLE SHEET, CODE ACADEMY PROJECT BY ELIZABETH HOPE 2018 **/
 
+body {
+ font-family:Helvetica;
+ font-size:22px;
+ color:seashell;
+ background-color:black;
+ opacity:0.9;
+ text-align: center;
+}
+
+a {
+ color:seashell;
+ text-decoration:underline;
 }
 
 /** HEADER **/
-a{
-  color:seashell;
-  text-decoration:underline;
-}
-.header{
-  margin-bottom:69px;
-  border-bottom:1px solid seashell;
-  display: flex;
-  flex-grow: 1;
-  overflow:hidden;
-width:100%;
+
+.header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ position: fixed;
+ width: 100%;
+ z-index: 1000;
+ padding: 10px;
+ border-bottom: 1px solid seashell;
+ background-color: black;
+ opacity: 0.9;
 }
 
 .header img {
-padding-left: 10px;
-padding-right:50px;
-
+ padding-left: 10px;
+ padding-right:50px;
 }
 
 .header nav{
-float: left;
-display: block;
+ float: left;
+ display: block;
+ padding-right: 25px;
 
 }
 
 /** MISSION **/
+
 .mission {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
   background-position: center;
   display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 1200px;
   height:700px;
   position: relative;
 }
 
-.headers{
+.headers {
   background-color:black;
   position: absolute;
   top: 300px;
-  text-align:center;
   width: 100%;
+}
 
   /** TEA OF THE MONTH **/
 
+.teas {
+    height: 730px;
+    width: 1000px;
+}
 
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0;
+  }
+
+
+.images img {
+    height: 200px;
+    width: 300px;
+    }
+
+.images p {
+ margin-top: 10px;
+ text-align:center;
+ font-weight:bold;
+
+}
+
+
+.berryblitz {
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+.bedfordbizarre {
+    margin-left: 25px;
+}
+
+.donuts {
+    margin-right: 0px;
+    margin-left: 25px;
+}
+
+.myrtle {
+    margin-right: 25px;
+}
+
+.spicedrum {
+    margin-left: 25px;
+    margin-right: 25px;
+}
 
 
 }
