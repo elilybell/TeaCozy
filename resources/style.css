@@ -67,6 +67,7 @@ a {
 .teas {
     height: 730px;
     width: 1000px;
+
 }
 
 .images {
@@ -74,7 +75,7 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     width: 1000px;
-    margin: 0;
+    
   }
 
 
